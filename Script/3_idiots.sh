@@ -1,21 +1,21 @@
 #!bin/bash
 
-<<info 
+#  user defined variables
 
-loops: anything that you want to repeat again and again and again based on
-conditions
-for loops conditions
+hero = “rancho”
 
-1..10
+villain = “virus”
 
-start point = 1
-ending point = 10
-increment/decrement = + / -
+echo “3 idiots ka hero hai $hero”
 
-info
+echo “3 idiots ka villain hai $villain”
 
-for((num=1; num<=10; num++))
-do
-    echo "$num"
-    echo "hello"
-done
+# shell / environment variables bhi hote hai (pre-defined)
+
+echo “current logged in user $USER”
+
+# user input
+
+read -p “Rancho ka poora naam kya tha? ” fullname
+
+echo “Rancho ka poora naam $fullname tha”
