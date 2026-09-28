@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo “chatur: Adarniya sabhapati mahodaya”
 
