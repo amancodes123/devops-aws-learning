@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 <<info
 This shell script will take periodic backup
