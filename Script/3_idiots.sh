@@ -16,6 +16,6 @@ echo “current logged in user $USER”
 
 # user input
 
-read -p “Rancho ka poora naam kya tha? ” fullname
+read -p "Rancho ka poora naam kya tha? " fullname
 
 echo “Rancho ka poora naam $fullname tha”
